@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&display=swap&subset=latin-ext');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  font: 14px/1.4 'Titillium Web', sans-serif;
+  color: #edf5e1;
+  background: #5Cdb95;
+  height: 100%;
+}
+h1,h2,h3,h4,a{
+  font-weight: 300;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.main {
+	flex: 1 0 auto;
+}
+.main__header{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.calculator{
+  height: 500px;
+  width: 300px;
+  background: #05386b;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 10px solid #379683;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+  margin: auto;
+}
+.header__h1{
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #edf5e1;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  padding: 10px;
+	flex: 0 0 auto;
+}
+.footer a{
+  background: #379683;
+  padding: 10px;
+  border-radius: 10px;
+}
