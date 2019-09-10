@@ -66,7 +66,7 @@ a{
   margin: 0!important;
   border: none;
   border-radius: 0;
-  height: 40px;
+  height: 80px;
   flex: 1 1 20%;
 }
 .clear-display:last-child{
@@ -97,7 +97,8 @@ a{
   margin: 5px 0 0 0;
 }
 .display{
-  height: 40px;
+  position: relative;
+  height: 80px;
   padding: 15px;
   max-width: 350px;
   overflow: hidden;
@@ -107,6 +108,13 @@ a{
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   background: #379683;
+}
+.display-result{
+  position: absolute;
+  color: #05386b;
+  font-size: 1.1rem;
+  right: 15px;
+  top: 5px;
 }
 .header__h1{
   display: inline-block;
