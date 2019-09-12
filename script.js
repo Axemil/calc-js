@@ -23,6 +23,10 @@ calcBody.addEventListener('click',event => {
     numberDisplay.innerText += event.target.innerText;
   }
 
+  if(numberDisplay.innerText === '0'){
+    numberDisplay.innerText += '.';
+  }
+
   if(event.target.id === 'number__dot' && !numberDisplay.innerText.includes(".") && numberDisplay.innerText !== ''){
     numberDisplay.innerText += event.target.innerText;
   }
